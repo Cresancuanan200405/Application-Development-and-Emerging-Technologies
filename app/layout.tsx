@@ -6,9 +6,12 @@ import Navbar from "./components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My ForpolFio",
+  title: "My Portfolio",
   description: "Portfolio of a passionate web developer and IT student building modern web experiences.",
   keywords: ["web developer", "portfolio", "IT student", "React", "Next.js"],
+  icons: {
+    icon: "/portfolio.png",
+  },
 };
 
 export default function RootLayout({
