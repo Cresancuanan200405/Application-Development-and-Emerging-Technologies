@@ -92,6 +92,7 @@ function ContactForm() {
   return (
     <form onSubmit={onSubmit} className="space-y-6 max-w-2xl mx-auto">
       <input type="hidden" name="access_key" value="baa1a2d6-14ef-4525-bfb8-640c2e917a1a" />
+      <input type="hidden" name="from_name" value="Profile inquiry" />
       
       <div className="grid sm:grid-cols-2 gap-6">
         <div>
